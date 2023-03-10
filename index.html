@@ -21,23 +21,42 @@
         }
         
         .first{
-            background-color: #6d6a6a;
+            background-color: #5B6574;
             font-weight: bold;
             padding: 30px;
-            font-size: 30px;
+            font-size: 36px;
             font-style: italic;
             text-decoration: underline;
         }
         
         .second{
-            background-color: #6d6a6a;
+            background-color: #5B6574;
             font-weight: bold;
-            font-size: 26x;
+            font-size: 25px;
         }
 
-        .button{
+        .menu{
             font-style: italic;
             text-decoration: underline;
+        }
+
+        .third{
+            background-color: black;
+            
+        }
+
+        .info{
+            font-style: italic;
+            font-size: 24px;
+        }
+
+        .formu{
+            font-size: 20px;
+        }
+
+        button{
+            color: black;
+            font-size: 14px;
         }
 
     </style>
@@ -61,7 +80,7 @@
 
         <table cellpadding="20px">
             <tr>
-                <td class="button"><a href="#">Urban</a></td>
+                <td class="menu"><a href="#">Urban</a></td>
                 <td><a href="#">Road</a></td>
                 <td><a href="#">Gravel</a></td>
                 <td><a href="#">Mountain</a></td>
@@ -69,22 +88,37 @@
         </table>
     </div>
 
-    <div class="third">
-        <table>
-            <td>
-                
-            </td>
-            <td>
-                <p>Lorem ipsum dolor sit
-                    amet consectetur, adipisicing elit.
-                    Nobis veritatis placeat provident
-                    eveniet distinctio commodi ratione
-                    voluptate? Quasi nam molestiae distinctio,
-                    in temporibus eius consectetur incidunt illum 
-                    eprehenderit vitae qui.
-                </p>
-            </td>
+    <div align="center" class="third">
+        <table cellpadding="200px">
+            <tr>
+                <td>
+                    <video src="./video/terry480-3.mp4" autoplay loop muted></video>
+                </td>
+                <td>
+                    <p class="info"> 
+                        Lorem ipsum dolor sit
+                        amet consectetur, adipisicing elit.
+                        Nobis veritatis placeat provident
+                        eveniet distinctio commodi ratione
+                        voluptate? Quasi nam molestiae distinctio,
+                        in temporibus eius consectetur incidunt illum 
+                        eprehenderit vitae qui.
+                    </p>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="formu">
+                    <p>Stay tuned:</p>
+                    <form action="" method="post">
+                        <label for="mail">E-mail</label>
+                        <input type="email" id="mail">
+                        <button>submit</button>
+                    </form>
+                </td>
+            </tr>
         </table>
     </div>
+
 </body>
 </html>
